@@ -1,3 +1,3 @@
 def classFactory(iface):
-  from mainPlugin import TestPlugin
+  from MainPlugin import TestPlugin
   return TestPlugin(iface)
